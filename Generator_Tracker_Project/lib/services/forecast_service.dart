@@ -1,0 +1,1 @@
+class ForecastService { static double calculateConsumptionRate(double fuel,double hrs){ if(hrs==0)return 0; return fuel/hrs;} static double forecastFuelRequirement(double fuel,double hrs,double expected){ return calculateConsumptionRate(fuel,hrs)*expected; }}
